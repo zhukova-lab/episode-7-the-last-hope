@@ -7,5 +7,31 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Zhukova Nina avokadotata@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-proposal-class-properties": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "html-webpack-pug-plugin": "^3.0.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "mini-css-extract-plugin": "^2.4.3",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-material-design-icons": "^0.1.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "jquery": "^3.6.0"
+  }
 }
