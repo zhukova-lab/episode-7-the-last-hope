@@ -1,0 +1,11 @@
+{
+  "name": "episode-7-the-last-hope",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zhukova Nina avokadotata@gmail.com",
+  "license": "ISC"
+}
