@@ -1,0 +1,24 @@
+form.form.form-new-user
+    h2.form-title Регистрация аккаунта
+    input.form-item(type="text" placeholder="Имя")
+    input.form-item(type="text" placeholder="Фамилия")
+    .form-genders  
+        .form-genders-item  
+            input(id="man" type="radio" name="gender" checked)
+            label.form-genders-item-label(for="man") Мужчина
+        .form-genders-item  
+            input(id="woman" type="radio" name="gender")
+            label.form-genders-item-label(for="woman") Женщина
+    label.form-label дата рождения
+        input.form-item.form-dates-item(type="text" placeholder="ДД.ММ.ГГГГ")
+    label.form-label данные для входа в сервис
+        input.form-item(type="email" placeholder="Email")
+        input.form-item(type="password" placeholder="Пароль")   
+    .form-switch
+        .form-switch-button.switch-on
+        p.form-switch-text Получать спецпредложения     
+    +button('перейти к оплате','arrow_forward')(class='button-new-user')
+    .form-new-user-entry   
+        p.form-create-new-user-text Уже есть аккаунт на Toxin
+        +button('войти', false)(class="button-form-entry")
+
