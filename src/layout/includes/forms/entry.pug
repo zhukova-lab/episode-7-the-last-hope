@@ -1,0 +1,13 @@
+form.form.form-entry
+    h2.form-title Найдём номера под ваши пожелания
+    .form-dates
+        label.form-label прибытие
+            input.form-item.form-dates-item(type="text" placeholder="ДД.ММ.ГГГГ")
+            i(class="form-icon material-icons") expand_more
+        label.form-label выезд
+            input.form-item.form-dates-item(type="text" placeholder="ДД.ММ.ГГГГ")
+            i(class="form-icon material-icons") expand_more
+    label.form-label гости
+        input.form-item(type="text" placeholder="Сколько гостей")
+        i(class="form-icon material-icons") expand_more
+    +button('подобрать номер','arrow_forward')(class='button-pick-up')
