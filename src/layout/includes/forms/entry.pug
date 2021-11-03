@@ -1,0 +1,8 @@
+form.form.form-entry
+    h2.form-title Войти
+    input.form-item(type="email" placeholder="Email")
+    input.form-item(type="password" placeholder="Пароль")
+    +button('войти','arrow_forward')
+    .form-create-new-user   
+        p.form-create-new-user-text Нет аккаунта на Toxin?
+        +button('создать', false)(class="button-form-create")
