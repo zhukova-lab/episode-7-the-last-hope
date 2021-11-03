@@ -1,0 +1,6 @@
+mixin button(text,icon)
+    if icon 
+        button.button(class=attributes.class)=text
+            i(class="button-icon material-icons")=icon
+    else
+        button.button(class=attributes.class)=text
