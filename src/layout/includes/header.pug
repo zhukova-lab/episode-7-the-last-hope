@@ -1,0 +1,32 @@
+-
+    let headerNavListItem = [
+        {
+            name:'О нас',
+            icon:false
+        },
+        {
+            name:'Услуги',
+            icon:'expand_more' 
+        },
+        {
+            name:'Вакансии',
+            icon:false
+        },
+        {
+            name:'Новости',
+            icon:false
+        },
+        {
+            name:'Соглашения',
+            icon:'expand_more'
+        },
+    ];
+
+header.header     
+    .header-wrapper.container
+        nav.header-nav
+            include logo       
+            ul.header-nav-list
+                +navLink(headerNavListItem)
+            +button('войти')(class='button-entry')
+            +button('зарегистрироваться')(class='button-new-user')
