@@ -4,3 +4,14 @@ mixin button(text,icon)
             i(class="button-icon material-icons")=icon
     else
         button.button(class=attributes.class)=text
+
+
+
+mixin navLink(arr)
+    each value in arr
+        li.header-nav-list-item
+            if value.icon
+                a(href="link").header-nav-list-link.expand=value.name 
+                    i(class="header-nav-list-link-icon material-icons")= value.icon
+            else 
+                a(href="link").header-nav-list-link=value.name
