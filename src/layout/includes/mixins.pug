@@ -15,3 +15,12 @@ mixin navLink(arr)
                     i(class="header-nav-list-link-icon material-icons")= value.icon
             else 
                 a(href="link").header-nav-list-link=value.name
+
+
+mixin footerLink(hrefValue,nameValue)
+    a.footer-link(href="hrefValue")=nameValue
+
+
+mixin footerLists(footerNavItems)
+    each value in footerNavItems 
+        li.footer.list.item=value
